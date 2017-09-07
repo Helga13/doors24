@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15">
+  <title>icon</title>
+  <g>
+    <rect x="0.57" y="6.71" width="13.19" height="1.33" rx="0.61" ry="0.61" transform="translate(14.33 14.76) rotate(180)" fill="#bbc95b"/>
+    <rect x="9.04" y="5.07" width="5.97" height="1.33" rx="0.48" ry="0.48" transform="translate(16.46 18.3) rotate(-135)" fill="#bbc95b"/>
+    <rect x="9.04" y="8.47" width="5.97" height="1.33" rx="0.48" ry="0.48" transform="translate(26.99 7.1) rotate(135)" fill="#bbc95b"/>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+        stroke: #ddf2c6;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <title>icon</title>
+  <g>
+    <rect x="1.74" y="13.27" width="11.51" height="1" rx="0.5" ry="0.5" transform="translate(14.99 27.54) rotate(180)" fill="#ddf2c6"/>
+    <rect x="-0.46" y="11.07" width="5.4" height="1" rx="0.5" ry="0.5" transform="translate(-9.33 13.81) rotate(-90)" fill="#ddf2c6"/>
+    <rect x="10.05" y="11.07" width="5.4" height="1" rx="0.5" ry="0.5" transform="translate(1.18 24.32) rotate(-90)" fill="#ddf2c6"/>
+    <rect x="1.25" y="7.38" width="5.87" height="1" rx="0.5" ry="0.5" transform="translate(-3.89 4.09) rotate(-36.88)" fill="#ddf2c6"/>
+    <rect x="7.86" y="7.39" width="5.89" height="1" rx="0.5" ry="0.5" transform="matrix(-0.8, -0.6, 0.6, -0.8, 14.71, 20.69)" fill="#ddf2c6"/>
+    <circle class="a" cx="7.47" cy="3.69" r="2.96"/>
+  </g>
+</svg>

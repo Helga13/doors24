@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15">
+  <title>icon</title>
+  <g>
+    <rect x="11.89" y="9.96" width="2" height="2" rx="1" ry="1" fill="#ddf2c6"/>
+    <rect x="3.43" y="9.96" width="2" height="2" rx="1" ry="1" fill="#ddf2c6"/>
+    <rect x="2.18" y="3.04" width="9.6" height="1" rx="0.47" ry="0.47" transform="translate(13.97 7.08) rotate(180)" fill="#ddf2c6"/>
+    <rect x="2.18" y="9.54" width="12.82" height="1" rx="0.48" ry="0.48" transform="translate(17.18 20.08) rotate(180)" fill="#ddf2c6"/>
+    <rect x="-1.07" y="6.29" width="7.5" height="1" rx="0.5" ry="0.5" transform="translate(-4.11 9.48) rotate(-90)" fill="#ddf2c6"/>
+    <rect x="7.53" y="6.29" width="7.5" height="1" rx="0.5" ry="0.5" transform="translate(4.49 18.07) rotate(-90)" fill="#ddf2c6"/>
+    <rect x="11.71" y="7.26" width="5.57" height="1" rx="0.5" ry="0.5" transform="translate(6.74 22.26) rotate(-90)" fill="#ddf2c6"/>
+    <rect x="10.93" y="4.97" width="4.07" height="1" rx="0.5" ry="0.5" fill="#ddf2c6"/>
+    <rect y="4.78" width="6.69" height="1" rx="0.5" ry="0.5" fill="#ddf2c6"/>
+    <rect x="0.84" y="6.67" width="5.84" height="1" rx="0.47" ry="0.47" fill="#ddf2c6"/>
+  </g>
+</svg>

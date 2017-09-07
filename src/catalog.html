@@ -1,0 +1,312 @@
+<!doctype html>
+<html>
+	<title></title>
+//= includes/head.html
+<body>
+//= includes/svg.html
+//= includes/header.html
+<main>
+ <div class="filters_block">
+   <div class="wrap">
+    <div class="filters_block_inner">
+      <div class="col">
+      <div class="label">
+        <img src="img/icons/sort.svg" alt="">
+        Сортировка:
+      </div>
+      <div class="filter">
+          <a class="js-dropdown" href="#">По названию</a>
+          <ul class="dropdown_block">
+            <li class="radio">
+              <input id="start" type="radio" name="name" checked>
+		      <label for="start"><span></span>А-Я</label>
+            </li>
+            <li class="radio">
+              <input id="end" type="radio" name="name">
+		      <label for="end"><span></span>Я-А</label>
+            </li>
+          </ul>
+        </div>
+        <div class="filter">
+          <a class="js-dropdown" href="#">По цене</a>
+          <ul class="dropdown_block">
+            <li class="radio">
+              <input id="expensive" type="radio" name="cost">
+		      <label for="expensive"><span></span>Сначала дорогие</label>
+            </li>
+            <li class="radio">
+              <input id="cheap" type="radio" name="cost" checked>
+		      <label for="cheap"><span></span>Сначала дешевые</label>
+            </li>
+          </ul>
+        </div>
+    </div> 
+    <div class="col">
+      <div class="label">
+        <img src="img/icons/filtres.svg" alt="">
+        Фильтры:
+      </div>
+      <div class="filter">
+          <a class="js-dropdown" href="#">Цена</a>
+          <ul class="dropdown_block">
+            <li class="input"><span>от</span><input type="text" value="50"></li>
+            <li class="input"><span>до</span><input type="text" value="360"></li>
+          </ul>
+        </div>
+        <div class="filter">
+          <a class="js-dropdown" href="#">Цвет</a>
+          <ul class="dropdown_block">
+            <li class="checkbox_color">
+              <input id="color1" type="checkbox" name="color" checked>
+		      <label for="color1"><span><img src="img/patterns/color1.png" alt=""></span></label>
+            </li>
+            <li class="checkbox_color">
+              <input id="color2" type="checkbox" name="color">
+		      <label for="color2"><span><img src="img/patterns/color2.png" alt=""></span></label>
+            </li>
+            <li class="checkbox_color">
+              <input id="color3" type="checkbox" name="color">
+		      <label for="color3"><span><img src="img/patterns/color3.png" alt=""></span></label>
+            </li>
+          </ul>
+        </div>
+        <div class="filter">
+          <a class="js-dropdown" href="#">Стиль</a>
+          <ul class="dropdown_block">
+            <li class="checkbox">
+              <input id="style1" type="checkbox" name="style" checked>
+		      <label for="style1"><span></span>Стиль1</label>
+            </li>
+            <li class="checkbox">
+              <input id="style2" type="checkbox" name="style">
+		      <label for="style2"><span></span>Стиль2</label>
+            </li>
+          </ul>
+        </div>
+        <div class="filter">
+          <a class="js-dropdown" href="#">Особенности</a>
+          <ul class="dropdown_block">
+             <li class="checkbox">
+              <input id="glass" type="checkbox" name="cost">
+		      <label for="glass"><span></span>Остекленная</label>
+            </li>
+            <li class="checkbox">
+              <input id="collapsible" type="checkbox" name="cost" checked>
+		      <label for="collapsible"><span></span>Складная</label>
+            </li>
+          </ul>
+        </div>
+    </div>
+    </div>
+   </div> 
+   </div>
+  <div class="wrap">
+    <div class="row">
+      <ul class="breadcrumbs">
+		  <li><a href="#">Главная</a></li>
+		  <li><a href="#">Каталог</a></li>
+		  <li class="last">Двери шпонированные</li>
+		</ul>
+      <div class="col catalog_nav catalog_nav_sub">
+        <div class="subtitle">Каталог</div>
+		  <ul class="">
+			<li><a href="#" class="catalog_link">Двери шпонированные</a>
+			<ul class="subcategory">
+			  <li>
+			    <input id="subcat-1" type="checkbox" name="subcategory" checked>
+		        <label for="subcat-1"><span></span>Серия Элит</label>
+			  </li>
+			  <li>
+			    <input id="subcat-2" type="checkbox" name="subcategory">
+		        <label for="subcat-2"><span></span>Серия Евро</label>
+			  </li>
+			  <li>
+			    <input id="subcat-3" type="checkbox" name="subcategory">
+		        <label for="subcat-3"><span></span>Серия 3DX Дизайн</label>
+			  </li>
+			  <li>
+			    <input id="subcat-4" type="checkbox" name="subcategory">
+		        <label for="subcat-4"><span></span>Серия Стандарт</label>
+			  </li>
+			  <li>
+			    <input id="subcat-5" type="checkbox" name="subcategory">
+		        <label for="subcat-5"><span></span>Серия Триплекс</label>
+			  </li>
+			</ul>
+			</li>
+			<li><a href="#" class="catalog_link">Двери окрашенные (эмаль)</a></li>
+			<li><a href="#" class="catalog_link">Двери из массива</a></li>
+			<li><a href="#" class="catalog_link">Двери Эко Шпон</a></li>
+			<li><a href="#" class="catalog_link">Двери ПВХ</a></li>
+		  </ul>
+      </div>
+      <div class="col catalog_block">
+       <div class="slide_item">
+          <a href="#" class="inner">
+            <div class="img_block">
+              <img src="img/doors/small-eko-porta-21-snow-veralinga.jpg" alt="">
+            </div>
+            <div class="text_block">
+              <div class="name">D4 Бриз Zadoor (Россия) Белая эмаль</div>
+              <div class="price">351 р.</div>
+            </div>
+          </a>
+        </div>
+        <div class="slide_item stock">
+          <a href="#" class="inner">
+           <div class="icon_stock">
+             <span class="before"><img src="img/logo/perrot_feather_left.png" alt=""></span>
+             <span class="middle">-10%</span>
+             <span class="after"><img src="img/logo/perrot_feather_right.png" alt=""></span>
+           </div>
+            <div class="img_block">
+              <img src="img/doors/small-eko-porta-21-snow-veralinga.jpg" alt="">
+            </div>
+            <div class="text_block">
+              <div class="name">D4 Бриз Zadoor (Россия) Белая эмаль</div>
+              <div class="price">351 р. <span class="old_price">390 р.</span></div>
+            </div>
+          </a>
+        </div>
+        <div class="slide_item">
+          <a href="#" class="inner">
+            <div class="img_block">
+              <img src="img/doors/small-eko-porta-21-snow-veralinga.jpg" alt="">
+            </div>
+            <div class="text_block">
+              <div class="name">D4 Бриз Zadoor (Россия) Белая эмаль</div>
+              <div class="price">351 р.</div>
+            </div>
+          </a>
+        </div>
+        <div class="slide_item">
+          <a href="#" class="inner">
+            <div class="img_block">
+              <img src="img/doors/small-eko-porta-21-snow-veralinga.jpg" alt="">
+            </div>
+            <div class="text_block">
+              <div class="name">D4 Бриз Zadoor (Россия) Белая эмаль</div>
+              <div class="price">351 р.</div>
+            </div>
+          </a>
+        </div>
+        <div class="slide_item">
+          <a href="#" class="inner">
+            <div class="img_block">
+              <img src="img/doors/small-eko-porta-21-snow-veralinga.jpg" alt="">
+            </div>
+            <div class="text_block">
+              <div class="name">D4 Бриз Zadoor (Россия) Белая эмаль</div>
+              <div class="price">351 р.</div>
+            </div>
+          </a>
+        </div>
+        <div class="slide_item">
+          <a href="#" class="inner">
+            <div class="img_block">
+              <img src="img/doors/small-eko-porta-21-snow-veralinga.jpg" alt="">
+            </div>
+            <div class="text_block">
+              <div class="name">D4 Бриз Zadoor (Россия) Белая эмаль</div>
+              <div class="price">351 р.</div>
+            </div>
+          </a>
+        </div>
+        <div class="slide_item">
+          <a href="#" class="inner">
+            <div class="img_block">
+              <img src="img/doors/small-eko-porta-21-snow-veralinga.jpg" alt="">
+            </div>
+            <div class="text_block">
+              <div class="name">D4 Бриз Zadoor (Россия) Белая эмаль</div>
+              <div class="price">351 р.</div>
+            </div>
+          </a>
+        </div>
+        <div class="slide_item">
+          <a href="#" class="inner">
+            <div class="img_block">
+              <img src="img/doors/small-eko-porta-21-snow-veralinga.jpg" alt="">
+            </div>
+            <div class="text_block">
+              <div class="name">D4 Бриз Zadoor (Россия) Белая эмаль</div>
+              <div class="price">351 р.</div>
+            </div>
+          </a>
+        </div>
+        <div class="slide_item">
+          <a href="#" class="inner">
+            <div class="img_block">
+              <img src="img/doors/small-eko-porta-21-snow-veralinga.jpg" alt="">
+            </div>
+            <div class="text_block">
+              <div class="name">D4 Бриз Zadoor (Россия) Белая эмаль</div>
+              <div class="price">351 р.</div>
+            </div>
+          </a>
+        </div>
+        <div class="slide_item">
+          <a href="#" class="inner">
+            <div class="img_block">
+              <img src="img/doors/small-eko-porta-21-snow-veralinga.jpg" alt="">
+            </div>
+            <div class="text_block">
+              <div class="name">D4 Бриз Zadoor (Россия) Белая эмаль</div>
+              <div class="price">351 р.</div>
+            </div>
+          </a>
+        </div>
+        <div class="slide_item">
+          <a href="#" class="inner">
+            <div class="img_block">
+              <img src="img/doors/small-eko-porta-21-snow-veralinga.jpg" alt="">
+            </div>
+            <div class="text_block">
+              <div class="name">D4 Бриз Zadoor (Россия) Белая эмаль</div>
+              <div class="price">351 р.</div>
+            </div>
+          </a>
+        </div>
+        <div class="slide_item">
+          <a href="#" class="inner">
+            <div class="img_block">
+              <img src="img/doors/small-eko-porta-21-snow-veralinga.jpg" alt="">
+            </div>
+            <div class="text_block">
+              <div class="name">D4 Бриз Zadoor (Россия) Белая эмаль</div>
+              <div class="price">351 р.</div>
+            </div>
+          </a>
+        </div>
+        <div class="slide_item">
+          <a href="#" class="inner">
+            <div class="img_block">
+              <img src="img/doors/small-eko-porta-21-snow-veralinga.jpg" alt="">
+            </div>
+            <div class="text_block">
+              <div class="name">D4 Бриз Zadoor (Россия) Белая эмаль</div>
+              <div class="price">351 р.</div>
+            </div>
+          </a>
+        </div>
+        <div class="pagination">
+          <ul>
+            <li><a href="#">Назад</a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li class="active"><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li>...</li>
+            <li><a href="#">125</a></li>
+            <li><a href="#">Вперед</a></li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </div>
+</main>
+//= includes/footer.html
+//= includes/scripts.html
+</body>
+</html>
