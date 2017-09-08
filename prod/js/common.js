@@ -109,8 +109,70 @@ $(document).ready(function () {
         var mainImage = $(this).index();
         $('.show_image').removeClass('active');
         $(this).addClass('active');
-//        $('.main_image li').removeClass('active');
         $('.main_image li').removeClass('active').eq(mainImage).addClass('active');
     });
+  
+  // product description
+  
+  $('.js-field').on('click', '.title', function(){
+    var descr = $(this).parents('.js-field');
+    if( $(descr).hasClass('active')){
+      $(descr).toggleClass('active').find('.subfield').fadeOut(100);
+    }else{
+      $('.js-field').removeClass('active').find('.subfield').fadeOut(100);
+      $(descr).toggleClass('active').find('.subfield').fadeIn(100);
+    }
+  });
+  
+  $('.js-title_field').on('click', function(){
+    if( $(this).hasClass('active')){
+      $(this).toggleClass('active').next('.field_wrap').slideUp(100);
+    }else{
+      $('.js-title_field').removeClass('active').next('.field_wrap').slideUp(100);
+      $(this).toggleClass('active').next('.field_wrap').slideDown(100);
+    }
+  });
+  
+  // calc
+  
+  function number() {
+    var number = $(".js-number");
+    number.each(function () {
+      var max_number = +($(this).attr("data-max-number"));
+      var input = $(this).find("input");
+      var plus = $(this).find(".js-plus-number");
+      var minus = $(this).find(".js-minus-number");
+      plus.on("click", function () {
+        var val = +(input.val());
+        if (val >= max_number) {
+          return false
+        }
+        else {
+          val += 1;
+          input.val(val);
+        }
+      });
+      minus.on("click", function () {
+        var val = +(input.val());
+        if (val > 1) {
+          val -= 1;
+          input.val(val);
+        }
+        return false;
+      });
+      input.on("change", function () {
+        var val = +$(this).val();
+        if (val > max_number) {
+          val = max_number;
+          $(this).val(val);
+        }
+        if (val == '') {
+          val = 1;
+          $(this).val(val);
+        }
+      });
+    });
+  }
+  number();
   
 })
