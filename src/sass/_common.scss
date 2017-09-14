@@ -1001,13 +1001,16 @@ footer{
 }
 
 .catalog_nav_sub{
-//  margin-top: -56px;
   .catalog_link{
     padding: 12px 0;
   }
 }
 
 .subcategory{
+  margin-left: 20px;
+  .catalog_link{
+    padding: 6px 0;
+  }
   label{
     cursor: pointer;
     font-size: 16px;
