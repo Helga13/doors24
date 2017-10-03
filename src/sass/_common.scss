@@ -246,6 +246,9 @@ header {
       }
     }
   }
+  .delivery{
+    display: none;
+  }
 }
 
 .logo {
@@ -402,6 +405,28 @@ header {
   }
 }
 
+.cart_mobile{
+  display: none;
+//  display: inline-block;
+  padding-left: 30px;
+  background: url(../img/icons/cart-hover.svg) left center no-repeat;
+  background-size: 22px;
+  vertical-align: middle;
+  .num{
+    font-family: 'bloggerSansRegular', $font-stack-helvetica;
+    color: #fff;
+  }
+}
+
+.menu_mobile{
+//  display: inline-block;
+  margin-left: 20px;
+  width: 32px;
+  vertical-align: middle;
+  cursor: pointer;
+  display: none;
+}
+
 /* footer */
 
 footer{
@@ -549,6 +574,20 @@ footer{
 
 /* main content */
 
+.no-scroll{
+  overflow: hidden;
+}
+
+.no-scroll .overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(51,51,51,0.8);
+  z-index: 8;
+}
+
 .main_banner{
   margin: 62px 0;
   height: 536px;
@@ -574,6 +613,8 @@ footer{
       width: 217px;
       font-size: 22px;
       padding: 10px;
+      position: relative;
+      z-index: 1;
     }
     img{
       object-fit: cover;
@@ -1125,6 +1166,30 @@ footer{
     img{
       width: 16px;
       height: 16px;
+    }
+  }
+  .filters_field{
+    display: inline-block;
+    position: relative;
+  }
+  .filters_wrap{
+    display: inline-block;
+    background-color: #fff;
+    .btn_group{
+      display: none;
+      box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.3);
+      button{
+        width: 50%;
+        font-size: 14px;
+        padding: 16px 0;
+        border: none;
+        background-color: #fff;
+        font-family: 'bloggerSansMedium', $font-stack-helvetica;
+        color: #3f5817;
+        &:last-child{
+          background-color: #d9d33b;
+        }
+      }
     }
   }
   .filter{

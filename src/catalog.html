@@ -9,12 +9,13 @@
  <div id="js-filters" class="filters_block">
    <div class="wrap">
     <div class="filters_block_inner">
-      <div class="col">
+      <div class="col filters_field js-field">
       <div class="label">
         <img src="img/icons/sort.svg" alt="">
         Сортировка:
       </div>
-      <div class="filter">
+      <div class="filters_wrap">
+        <div class="filter">
           <a class="js-dropdown" href="#">По названию</a>
           <ul class="dropdown_block">
             <li class="radio">
@@ -40,13 +41,19 @@
             </li>
           </ul>
         </div>
+        <div class="btn_group">
+          <button type="reset">Сбросить</button>
+          <button type="button">Применить</button>
+        </div>
+      </div>
     </div> 
-    <div class="col">
+    <div class="col filters_field js-field">
       <div class="label">
         <img src="img/icons/filtres.svg" alt="">
         Фильтры:
       </div>
-      <div class="filter">
+      <div class="filters_wrap">
+        <div class="filter">
           <a class="js-dropdown" href="#">Цена</a>
           <ul class="dropdown_block">
             <li class="input"><span>от</span><input type="text" value="50"></li>
@@ -96,6 +103,11 @@
             </li>
           </ul>
         </div>
+        <div class="btn_group">
+          <button type="reset">Сбросить</button>
+          <button type="button">Применить</button>
+        </div>
+      </div>
     </div>
     </div>
    </div> 
