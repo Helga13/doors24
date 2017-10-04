@@ -158,7 +158,7 @@ label {
 	&:hover,
   &:focus,
 	&:active{
-		color: #77a841;
+		color: #5aaa34;
 	}
 }
 
@@ -285,7 +285,7 @@ header {
 }
 
 .main_menu{
-  background-color: #77a841;
+  background-color: #5aaa34;
   border-bottom: 4px solid #5c8921;
   padding: 22px 0;
 }
@@ -434,7 +434,7 @@ footer{
 }
 
 .footer_top{
-  background-color: #77a841;
+  background-color: #5aaa34;
   .logo{
     vertical-align: middle;
     .parrot{
@@ -510,8 +510,10 @@ footer{
 .breadcrumbs{
   margin-left: 255px;
   padding: 0 0 38px;
+  margin-bottom: -56px;
   &.breadcrumbs_left{
     margin-left: 15px;
+    margin-bottom: 0;
   }
   li{
     font-size: 18px;
@@ -523,7 +525,7 @@ footer{
     font-family: 'bloggerSansMedium', $font-stack-helvetica;
   }
   a{
-    color: #77a841;
+    color: #5aaa34;
     position: relative;
     transition: color 0.2s ease-in;
     &:hover,
@@ -552,11 +554,11 @@ footer{
     font-family: 'bloggerSansMedium', $font-stack-helvetica;
     font-size: 16px;
     line-height: 22px;
-    color: #77a841;
+    color: #5aaa34;
     display: inline-block;
     transition: color .2s ease-in;
     &.active{
-      background-color: #77a841;
+      background-color: #5aaa34;
       border-radius: 7px;
       color: #fff;
     }
@@ -995,7 +997,7 @@ footer{
 
 .catalog_block{
   width: calc(100% - 240px);
-  margin: 0 -8px;
+  margin: 56px -8px 0;
   .slide_item{
     width: 25%;
     vertical-align: top;
@@ -1193,7 +1195,7 @@ footer{
     }
   }
   .filter{
-    color: #77a841;
+    color: #5aaa34;
     font-size: 18px;
     letter-spacing: 0.01em;
     display: inline-block;
@@ -1823,5 +1825,34 @@ footer{
       font-size: 22px;
       letter-spacing: 0.01em;
     }
+  }
+}
+
+.filters_block_inner .search_block{
+  display: none;
+  position: relative;
+  padding-bottom: 0;
+  .search button{
+    background: url(../img/icons/search.svg) center no-repeat;
+    background-size: 14px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    border: none;
+  }
+  .search input{
+    width: 174px;
+  }
+  .search p{
+    margin: 0 0 12px 0;
+  }
+}
+
+.final_parameters{
+  .basket{
+    display: none;
   }
 }

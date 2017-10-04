@@ -318,9 +318,9 @@ if($('#js-filters').length){
 			a.children[0].style.width = getComputedStyle(a, '').width
 		}, false);
 	}
-//	if (window.matchMedia("(max-width: 1024px)").matches) {
-//			window.removeEventListener('scroll', Ascroll ,false);
-//			document.body.removeEventListener('scroll', Ascroll ,false);
-//	}
+	if (window.matchMedia("(max-width: 767px)").matches) {
+			window.removeEventListener('scroll', Ascroll ,false);
+			document.body.removeEventListener('scroll', Ascroll ,false);
+	}
 })();
 }
